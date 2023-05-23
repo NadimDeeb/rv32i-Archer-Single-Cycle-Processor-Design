@@ -1,0 +1,69 @@
+v 4
+file . "archer_rv32i_pipelined_tb.vhd" "fc766a08a522db6c386ec9c047e575b25cfda8a3" "20230508205157.687":
+  entity archer_rv32i_pipelined_tb at 1( 0) + 0 on 8652;
+  architecture arch of archer_rv32i_pipelined_tb at 9( 168) + 0 on 8653;
+file . "archer_rv32i_pipelined.vhd" "4d5c3f241f751a006559387673657185ca118762" "20230508205157.686":
+  entity archer_rv32i_pipelined at 1( 0) + 0 on 8650;
+  architecture rtl of archer_rv32i_pipelined at 25( 967) + 0 on 8651;
+file . "alubranch.vhd" "1849b710fb5eede0e8b39c37d43fc55575583197" "20230508205157.683":
+  entity branch_alu at 1( 0) + 0 on 8648;
+  architecture rtl of branch_alu at 14( 319) + 0 on 8649;
+file . "4-memwb.vhd" "15255127a419c4668b82fded40d136e474816f7e" "20230508205157.682":
+  entity memwb at 1( 0) + 0 on 8646;
+  architecture arch of memwb at 36( 937) + 0 on 8647;
+file . "3-exmem.vhd" "e0e2f55378ad9aeec5a50ace451650651fe0f30d" "20230508205157.682":
+  entity exmem at 1( 0) + 0 on 8644;
+  architecture arch of exmem at 46( 1221) + 0 on 8645;
+file . "2-idex.vhd" "fff21271b3eb830cb96f1ce538457cf9d4fe0ad9" "20230508205157.682":
+  entity idex at 1( 0) + 0 on 8642;
+  architecture arch of idex at 68( 2029) + 0 on 8643;
+file . "1-ifid.vhd" "45192a4c4d3bb03b35cc25f92956712a3f8a4401" "20230508205157.681":
+  entity ifid at 1( 0) + 0 on 8640;
+  architecture arch of ifid at 28( 690) + 0 on 8641;
+file . "sram.vhd" "c94a501ad94ba212f0c2e8bb0ee8b56cfe2c787f" "20230508205157.691":
+  entity sram at 17( 559) + 0 on 8670;
+  architecture rtl of sram at 33( 988) + 0 on 8671;
+file . "rom.vhd" "b1946658cea5ce632af3ba28d152906a5a50175e" "20230508205157.690":
+  entity rom at 16( 574) + 0 on 8668;
+  architecture rtl of rom at 28( 837) + 0 on 8669;
+file . "regfile.vhd" "b4423a2446cc9a39da00702a1d849c45812b7366" "20230508205157.690":
+  entity regfile at 16( 573) + 0 on 8666;
+  architecture rtl of regfile at 35( 1178) + 0 on 8667;
+file . "pc.vhd" "196d52107ae2c8fcd91997df341f95fee01ad18d" "20230508205157.690":
+  entity pc at 16( 559) + 0 on 8664;
+  architecture rtl of pc at 36( 1042) + 0 on 8665;
+file . "mux2to1.vhd" "197a6c1e739a9dbe0dd146bc34a9bf149302635b" "20230508205157.689":
+  entity mux2to1 at 16( 542) + 0 on 8662;
+  architecture rtl of mux2to1 at 30( 883) + 0 on 8663;
+file . "lmb.vhd" "f48f8cea509105dca03a1eff83839cf61e7582b8" "20230508205157.689":
+  entity lmb at 17( 560) + 0 on 8660;
+  architecture rtl of lmb at 39( 1447) + 0 on 8661;
+file . "immgen.vhd" "a3b23f9dd07c27889b2109c2229485dd37a7104d" "20230508205157.688":
+  entity immgen at 16( 534) + 0 on 8658;
+  architecture rtl of immgen at 28( 797) + 0 on 8659;
+file . "control.vhd" "ed6c82c74f4bde21274b0227e822ee53a83b9ac2" "20230508205157.688":
+  entity control at 16( 547) + 0 on 8656;
+  architecture arch of control at 43( 1284) + 0 on 8657;
+file . "branch_cmp.vhd" "9cef6ba55c7c3156f6aee2c0c8bd984e4fee34f8" "20230508205157.687":
+  entity branch_cmp at 16( 532) + 0 on 8654;
+  architecture rtl of branch_cmp at 30( 872) + 0 on 8655;
+file . "archer_rv32i_single_cycle_tb.vhd" "6445d846b1eed0c3fd8008c8502100fe00a205b4" "20230425211026.935":
+  entity archer_rv32i_single_cycle_tb at 16( 541) + 0 on 3453;
+  architecture arch of archer_rv32i_single_cycle_tb at 24( 715) + 0 on 3454;
+file . "archer_rv32i_single_cycle.vhd" "7feceea2bb53fcff51f5b354576ad3af26e55ae2" "20230425211026.934":
+  entity archer_rv32i_single_cycle at 16( 576) + 0 on 3451;
+  architecture rtl of archer_rv32i_single_cycle at 40( 1549) + 0 on 3452;
+file . "add4.vhd" "f01fe653e2474fbcec0cb767067ae24c2e44b647" "20230508205157.680":
+  entity add4 at 16( 538) + 0 on 8638;
+  architecture rtl of add4 at 28( 801) + 0 on 8639;
+file . "alu.vhd" "80a66644f23dbf0d8a8ea2bf0283fb1eec88c93b" "20230508205157.680":
+  entity alu at 16( 546) + 0 on 8636;
+  architecture rtl of alu at 30( 901) + 0 on 8637;
+file . "archer_pkg.vhd" "d6e184dbe8fb7bb2f80635dfb90ea17bfe83629d" "20230508205157.679":
+  package archer_pkg at 16( 544) + 0 on 8635;
+file . "CSR.vhd" "3fcb6814fd122a06df9f4422eb4f2553a2ea5057" "20230508205157.692":
+  entity csr at 1( 0) + 0 on 8672;
+  architecture arch of csr at 22( 627) + 0 on 8673;
+file . "Forwarding.vhd" "13c65e4995fe6151d93da14ed4d2e617035e91f6" "20230508205157.693":
+  entity forwarding at 1( 0) + 0 on 8674;
+  architecture arch of forwarding at 40( 1181) + 0 on 8675;
